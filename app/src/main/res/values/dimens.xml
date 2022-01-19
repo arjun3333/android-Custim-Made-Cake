@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sp-->
+
+    <dimen name="zero">0sp</dimen>
+    <dimen name="half">.5sp</dimen>
+    <dimen name="two">2sp</dimen>
+    <dimen name="three">3sp</dimen>
+    <dimen name="one">1sp</dimen>
+    <dimen name="four">4sp</dimen>
+    <dimen name="five">5sp</dimen>
+    <dimen name="seven">7sp</dimen>
+    <dimen name="eight">8sp</dimen>
+    <dimen name="nine">9sp</dimen>
+    <dimen name="ten">10sp</dimen>
+    <dimen name="tweleve">12sp</dimen>
+    <dimen name="thirteen">13sp</dimen>
+    <dimen name="fifteen">15sp</dimen>
+    <dimen name="twenty">20sp</dimen>
+    <dimen name="twentytwo">22sp</dimen>
+    <dimen name="twentyfive">25sp</dimen>
+    <dimen name="fourty">40sp</dimen>
+    <dimen name="thirty">30sp</dimen>
+    <dimen name="fifty">50sp</dimen>
+
+    <!--sp-->
+    <dimen name="tweleve_sp">12sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="seventeen_sp">17sp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="nineteen">18sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twentyfive_sp">25sp</dimen>
+    <dimen name="eighty">80sp</dimen>
+    <dimen name="onethirty">130sp</dimen>
+    <dimen name="oneseventy">170sp</dimen>
+    <dimen name="onefifty">150sp</dimen>
+    <dimen name="twhundrad_sp">200sp</dimen>
+    <dimen name="twofifty_sp">250sp</dimen>
+    <dimen name="threehundrd_sp">300sp</dimen>
+    <dimen name="seventy">70sp</dimen>
+    <dimen name="sixty">60sp</dimen>
+    <dimen name="hundradfifty_sp">150sp</dimen>
+    <dimen name="hundrad_sp">100sp</dimen>
+    <dimen name="twhundradfifty_sp">250sp</dimen>
+    <dimen name="padding">7sp</dimen>
+    <dimen name="grid_expected_size">120sp</dimen>
+
+    <dimen name="small_padding_margin">5sp</dimen>
+    <dimen name="normal_padding_margin">10sp</dimen>
+    <dimen name="large_padding_margin">20sp</dimen>
+    <dimen name="fab_dimenssions">50sp</dimen>
+
+    <dimen name="xxs_text_size">10sp</dimen>
+    <dimen name="xs_text_size">12sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="l_text_size">18sp</dimen>
+    <dimen name="xl_text_size">20sp</dimen>
+    <dimen name="title_text_size">21sp</dimen>
+    <dimen name="image_size">30sp</dimen>
+</resources>

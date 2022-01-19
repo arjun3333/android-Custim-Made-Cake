@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782346648151",
+    "project_id": "cake-shop-9b771",
+    "storage_bucket": "cake-shop-9b771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782346648151:android:dd66bc28a13a14480d0112",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782346648151-4u9kej2mlu2rpctpsr4ian0gnivmu68r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH4WxYoCEce55G3uNlcaA1EJJRYWx2BIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782346648151-4u9kej2mlu2rpctpsr4ian0gnivmu68r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

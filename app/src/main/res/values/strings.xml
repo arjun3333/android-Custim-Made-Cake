@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Makemycake</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">782346648151-4u9kej2mlu2rpctpsr4ian0gnivmu68r.apps.googleusercontent.com</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
