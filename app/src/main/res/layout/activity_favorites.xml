@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favorites"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/brown">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/home"
+                android:backgroundTint="@color/caramel_7"
+                android:textColorHighlight="#000000"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Shopping Cart"
+                android:textColor="@color/caramel_8"
+                android:textSize="27dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight=".7"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SubTotal"
+                android:textColor="@color/black"
+                android:padding="@dimen/ten"
+                android:id="@+id/t1"/>
+
+            <TextView
+                android:id="@+id/tvvv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/ten"
+                android:text="300$"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Fee"
+                android:textColor="@color/black"
+                android:padding="@dimen/ten"
+                android:layout_below="@id/t1"
+                android:id="@+id/t3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvvv2"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/ten"
+                android:text="10$"
+                android:textColor="@color/black" />
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/t3"
+                android:background="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textColor="@color/black"
+                android:padding="@dimen/ten"
+
+                android:textStyle="bold"
+                android:layout_below="@id/v1"/>
+            <TextView
+                android:id="@+id/Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30$"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="@dimen/ten"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/v1"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/miBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/record"
+        android:text="Create"
+        android:textSize="11dp"
+        android:fontFamily="cursive"
+        tools:ignore="TextContrastCheck"
+        android:textColor="@color/brown"/>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/brown"
+        app:layout_anchor="@+id/miBtn"
+        app:layout_anchorGravity="bottom|center"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/brown"
+            app:elevation="0dp"
+            app:menu="@menu/bottom_nav"
+            />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
