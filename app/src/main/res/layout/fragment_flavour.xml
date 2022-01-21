@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flavour"
+    android:background="@color/white">
+
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/caramel_1"
+        android:gravity="center"
+        android:text="Chocolate"
+        android:textColor="#070707"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caramel"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:background="@color/caramel_1"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strawberry"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:background="@color/caramel_1"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vanilla"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:background="@color/caramel_1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mocha"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:background="@color/caramel_1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cranberry"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:background="@color/caramel_1"
+        android:gravity="center"/>
+
+</RelativeLayout>
