@@ -142,10 +142,10 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="670dp"
         android:background="@drawable/record"
         android:text="Create"
-        android:textSize="11dp"
+        android:textSize="10dp"
         android:fontFamily="cursive"
         tools:ignore="TextContrastCheck"
         android:textColor="@color/brown"/>
